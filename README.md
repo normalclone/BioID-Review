@@ -36,7 +36,8 @@ BioID is a Biometric identity system that includes identity services based on .N
 ### Video face recognition
 ![by-face](ScreenShoot/video-reg-ui.gif?raw=true)
 ## Business Context
-
+### Conceptual Model
+![conceptual-model](ScreenShoot/business_context.JPG?raw=true)
 
 ## OS, SDK, library, tooling and prerequisites
 ### Infrastructure
