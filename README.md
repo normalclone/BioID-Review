@@ -91,9 +91,9 @@ There are several individual services and infrastructure components that make up
         <tr>
       <td align="center">4.</td>
       <td>
-        Video maker (.NET Framework)
+        VideoConsoleExecute (.NET Framework)
       </td>
-      <td>Use as a video creator.</td>
+      <td>Video maker.</td>
      </tr>
   </tbody>
 </table>
