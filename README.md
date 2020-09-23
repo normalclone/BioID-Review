@@ -99,22 +99,38 @@ There are several individual services and infrastructure components that make up
   </tbody>
 </table>
 ## Technology
+
 ### RetinaFace
+
 - RetinaFace is a practical single-stage **[`SOTA`](http://shuoyang1213.me/WIDERFACE/WiderFace_Results.html)** face detector which is initially introduced in **[`arXiv`](https://arxiv.org/abs/1905.00641)** technical report and then accepted by **[`CVPR 2020`](https://openaccess.thecvf.com/content_CVPR_2020/html/Deng_RetinaFace_Single-Shot_Multi-Level_Face_Localisation_in_the_Wild_CVPR_2020_paper.html)**.
+
 - You can read more **[`here`](https://github.com/deepinsight/insightface/tree/master/RetinaFace)**
+
 ### ArcFace
+
 #### - Data : 
+
 - Refine the largest publicly available training data, MS-Celeb-1M, in both automatic and manual way.
+
 #### - Network : 
+
 - Taking VGG2 as the training data, the authors conduct extensive contrast experiments regarding the convolutional network settings and report the verification accuracy on LFW, CFP and AgeDB.
+
 #### - Loss : 
+
 - The authors propose a new loss function, additive angular margin (ArcFace), to learn highly discriminative features for robust face recognition.
+
 #### - Performance : 
+
 - The proposed ArcFace achieves state-of-the-art results on the MegaFace Challenge, which is the largest public face benchmark with one million faces for recognition.
+
 ### InsightFace
+
 - `InsightFace` provides a complete implementation of both RetinaFace and ArcFace with a lot of pre-trained models.
 - More information **[`here`](https://insightface.ai/)**
+
 ## Installation
+
 ### Step 1: 
 - Install 
 **[`Visual Studio`](https://visualstudio.microsoft.com/)**, **[`Python 3.7.4`](https://www.python.org/downloads/release/python-374/)**, **[`CUDA 10.1`](https://developer.nvidia.com/cuda-10.1-download-archive-base?)**
