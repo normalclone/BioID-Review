@@ -27,10 +27,6 @@ BioID is a Biometric identity system that includes identity services based on .N
 - [OS, SDK, library, tooling and prerequisites](https://github.com/vietnam-devs/coolstore-microservices#os-sdk-library-tooling-and-prerequisites)
 - [High level software architecture](https://github.com/vietnam-devs/coolstore-microservices#high-level-software-architecture)
 - [Installation](https://github.com/vietnam-devs/coolstore-microservices#installation)
-- [µService development](https://github.com/vietnam-devs/coolstore-microservices#µmicroservice-development)
-- [Open API](https://github.com/vietnam-devs/coolstore-microservices#open-api)
-- [Contributing](https://github.com/vietnam-devs/coolstore-microservices#contributing)
-- [Contributors](https://github.com/vietnam-devs/coolstore-microservices#contributors)
 - [Licence](https://github.com/vietnam-devs/coolstore-microservices#licence)
 ## Demos
 ### Dataset manager (Customer details)
@@ -46,7 +42,8 @@ BioID is a Biometric identity system that includes identity services based on .N
 ### Infrastructure
 
 - **`Windows 10`** - the OS for developing and building this demo application.
-- **`CUDA 10.1`** - a parallel computing platform and programming model that makes using a GPU for general purpose computing simple and elegant.
+- **[`CUDA 10.1`](https://developer.nvidia.com/cuda-10.1-download-archive-base?)** - a parallel computing platform and programming model that makes using a GPU for general purpose computing simple and elegant.
+
 
 ### Back-end
 
@@ -60,4 +57,38 @@ BioID is a Biometric identity system that includes identity services based on .N
 
 ## High level software architecture
 ![home-page](ScreenShoot/High-level-software-architecture.jpg?raw=true)
+
+There are several individual services and infrastructure components that make up this app:
+
+<table>
+  <thead>
+    <th>No.</th>
+    <th>Service</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+     <tr>
+      <td align="center">1.</td>
+      <td>
+        SSO (.NET Core)
+      </td>
+      <td>Authenization and token.</td>
+     </tr>
+     <tr>
+      <td align="center">2.</td>
+      <td>
+        BioID (.NET Framework)
+      </td>
+      <td>UI and API used to manage dataset, devices..</td>
+     </tr>
+     <tr>
+      <td align="center">3.</td>
+      <td>
+        CoreService(Python)
+      </td>
+      <td>Detect faces, calculate distances, extract features.</td>
+     </tr>
+  </tbody>
+</table>
+
 
