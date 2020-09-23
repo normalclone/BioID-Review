@@ -59,5 +59,5 @@ BioID is a Biometric identity system that includes identity services based on .N
 - **[`typescript`](https://www.typescriptlang.org)** - a typed superset of JavaScript that compiles to plain JavaScript.
 
 ## High level software architecture
-![home-page](ScreenShoot/High level software architecture.jpg?raw=true)
+![home-page](ScreenShoot/High-level-software-architecture.jpg?raw=true)
 
