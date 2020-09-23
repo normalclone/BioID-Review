@@ -34,11 +34,11 @@ BioID is a Biometric identity system that includes identity services based on .N
 - [Licence](https://github.com/vietnam-devs/coolstore-microservices#licence)
 ## Demos
 ### Dataset manager (Customer details)
-![home-page](SceenShoot/ui-dataset-manager.PNG?raw=true)
+![home-page](ScreenShoot/ui-dataset-manager.PNG?raw=true)
 ### Image face recognition
-![by-face](SceenShoot/image-reg-ui.gif?raw=true)
+![by-face](ScreenShoot/image-reg-ui.gif?raw=true)
 ### Video face recognition
-![by-face](SceenShoot/video-reg-ui.gif?raw=true)
+![by-face](ScreenShoot/video-reg-ui.gif?raw=true)
 ## Business Context
 
 
