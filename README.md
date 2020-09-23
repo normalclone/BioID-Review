@@ -10,7 +10,7 @@
   \/_____/   \_\  \/____/   \_\  \/_____/
 ```
 
-BioID is a Biometric identity system that includes identity services based on .NET Core, .NET Framework and Python. In the other hand, it's also an attendance management application which allow you to upload your customer picture(s), and we recognition them for you automatically. Read [document](http://insightface.ai/) for more information.
+BioID is a Biometric identity system that includes identity services based on .NET Core, .NET Framework and Python. In the other hand, it's also provide facial recognition service which allow you to upload your customer picture(s), and recognize them (on video, stream, image) for you automatically with high accuracy. Read [document](http://insightface.ai/) for more information.
 
 
 
