@@ -88,6 +88,13 @@ There are several individual services and infrastructure components that make up
       </td>
       <td>Detect faces, calculate distances, extract features.</td>
      </tr>
+        <tr>
+      <td align="center">4.</td>
+      <td>
+        Video maker (.NET Framework)
+      </td>
+      <td>Use as a video creator.</td>
+     </tr>
   </tbody>
 </table>
 
