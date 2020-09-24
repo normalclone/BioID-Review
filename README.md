@@ -161,7 +161,7 @@ There are several individual services and infrastructure components that make up
 - We just need 1 frontal face per user for the dataset.
 - Our tool can avoid light effect well. (But good light effect still better)
 
-## Difficulty
+## Known issues
 - `Insight face` works on `mxnet`. Unfortunately, `mxnet` isn't support multithreading. So, we need to lock the Thread, but it will slow our process down.
 - Even `Insight face` is a very strong features extraction tool, it's performance not good as expect (800ms/image with CPU; 300ms/image with GPU).
 - The project works on .NET so It's limited to `Windows` OS.
