@@ -170,8 +170,6 @@ There are several individual services and infrastructure components that make up
 - Update new technology while it's available.
 ## Citation
 
-If you find *InsightFace* useful in your research, please consider to cite the following related papers:
-
 ```
 @inproceedings{deng2019retinaface,
 title={RetinaFace: Single-stage Dense Face Localisation in the Wild},
